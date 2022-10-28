@@ -1,0 +1,41 @@
+.root {
+  margin-top: 60px;
+   overflow: hidden;
+}
+.attachment {
+  /* background-image: url('../../assets/images/background_attachment.png'); */
+  background-size: cover ;
+  width: 100%;
+  height: 700px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  margin-top: 405px;
+}
+.wrapperFormBlock {
+  /* margin-top: 405px; */
+  background: #F9F3E9;
+  /* border-radius: 60px 60px 0px 0px; */
+  height: 756px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;*/
+}
+
+@media screen and (max-width: 700px) {
+  .root {
+    margin-top: 0px;
+     overflow: hidden;
+  }
+  .attachment {
+    /* display: none; */
+     height: 450px; 
+    background-size: 100vh 100vh ;
+  }
+}
+@media screen and (max-width: 520px) {
+  .attachment {
+     height: 350px; 
+  }
+}
