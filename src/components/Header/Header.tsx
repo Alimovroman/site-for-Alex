@@ -4,24 +4,9 @@ import telegram from '../../assets/images/telegram.png'
 import logo from '../../assets/images/logo.png'
 
 const Header: React.FC = () => {
-  //const [color, setColor] = useState('white')
-
-  // const listenScrollEvent = () => {
-  //   window.scrollY > 200 ? setColor('grey') : setColor('white')
-  // }
-
-  // useEffect(() => {
-  //   window.addEventListener('scroll', listenScrollEvent)
-
-  //   return (() => {
-  //     window.removeEventListener('scroll', listenScrollEvent)
-  //   })
-  // }, [])
-
   const onScroll = (section: string) => {
     document.getElementById(section)?.scrollIntoView()
   }
-
   return (
     <div className={classes.wrappedHeader}>
       <div className={classes.header} >

@@ -22,7 +22,6 @@ const Main: React.FC = () => {
   const [isVisibleOrderMessage, setIsVisibleOrderMessage] = useState(true)
 
   useEffect(() => {
-    // let i = backgroundAttArr.length -1;
     let i = 0;
     setInterval(() => {
       i += 1

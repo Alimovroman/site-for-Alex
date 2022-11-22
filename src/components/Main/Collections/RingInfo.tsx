@@ -95,12 +95,9 @@ const RingInfo: React.FC<PropsRingInfo> = ({ setIsVisibleInfo, ringInfo, isVisib
           <div className={classes.wrappedBackButton}>
             <button className={classes.backButton} onClick={() => setVisibleForm(false)}>← Назад</button>
           </div>
-          <Form isVisibleOrderMessage={isVisibleOrderMessage} photosInfo={photosInfo}/>
-
+          <Form isVisibleOrderMessage={isVisibleOrderMessage} photosInfo={photosInfo} />
         </div>
       )}
-
-      {/* <Form /> меняется форма*/}
     </div>
   )
 }
